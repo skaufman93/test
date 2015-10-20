@@ -8,20 +8,18 @@
 
         $("h2").click(function(){
 
-          var answerToTheQuestion = prompt("what color is your eye?");
-          console.log(answerToTheQuestion);
+          var answerToTheQuestion = prompt("What color are your eyes baby?");
 
-          var response = answerToTheQuestion + " is a very pretty eye color !";
-          console.log(response);
-
-          $("h1").html(response);
+            $("body").css("background-color", answerToTheQuestion);
+            $("h2").html("i love people with " + answerToTheQuestion + " eyes ;)");
         });
       });
       </script>
       </head>
-      <body>
-        <h1>null is a very pretty eye color !</h1>
+    <body>
+        <h1> </h1>
     <h2>I want to know all about you</h2>
-  
-  
-</body></html>
+
+
+</body>
+</html>
